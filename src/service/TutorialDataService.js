@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const URL = 'http://localhost:8080';
-const INSTRUCTOR_API_URL = `${URL}/api`;
+const INSTRUCTOR_API_URL = `${URL}/api/auth/all`;
 
 class TutorialDataService {
     retrieveAllTutorials() {
